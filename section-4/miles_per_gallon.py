@@ -1,7 +1,7 @@
-import random
+from random import randint
 
-gallons = random.randint(10, 25)
-miles = random.randint(200, 400)
+gallons = randint(10, 25)
+miles = randint(200, 400)
 
 
 def mpg(m, g):

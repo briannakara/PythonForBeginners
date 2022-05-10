@@ -4,7 +4,8 @@ height = int(input("Enter the height of the rectangular prism. "))
 
 
 def volume(l, w, h):
-    return l * w * h
+    vol = l * w * h
+    return vol
 
 
 print("The volume of the rectangular prism is " + str(volume(length, width, height)) + " cubic feet.")
