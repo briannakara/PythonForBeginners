@@ -5,7 +5,7 @@ print(nums[3][1])
 furniture = ["chairs", "table", "desk", "lamp", "bed"]
 print(furniture[-5])
 
-print("Most people own at least {} {}.".format(nums[0][1], furniture[-5]))
+print(f"Most people own at least {nums[0][1]} {furniture[-5]}.")
 
 decimals = [0.98, 8.76, 6.54, 4.32]
 print(decimals[1:])
